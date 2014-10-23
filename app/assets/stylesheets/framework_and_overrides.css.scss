@@ -2,45 +2,62 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// make all images responsive by default
-img {
-  @extend .img-responsive;
-  margin: 0 auto;
-  }
-// override for the 'Home' navigation link
-.navbar-brand {
-  font-size: inherit;
-  }
+.form-control {
+  width: 50%;
+}
+  
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-// THESE ARE EXAMPLES YOU CAN MODIFY
-// create your own classes
-// to make views framework-neutral
-.column {
-  @extend .col-md-6;
-  @extend .text-center;
+.navbar-default {
+  background-color: #EFEFEB;
+}
+
+.navbar-default .navbar-brand {
+  font-family: guardian-egyptt, georgia, serif;
+  font-weight: 400;
+  color: #d5641c;
+  font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0192B5;
+}
+
+.center {
+  text-align: center;
+}
+
+body { padding-bottom: 70px; }
+
+.col-md-3:nth-child(4n+1) {
+  clear: left;
+}
+
+.col-md-6 {
+  h3 {
+    font-size: 45px;
   }
-.form {
-  @extend .col-md-6;
+  h5 {
+    font-size: 25px;
   }
-.form-centered {
-  @extend .col-md-6;
-  @extend .text-center;
+  p {
+    font-size: 14px;
   }
-.submit {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-lg;
+}
+
+.caption {
+  h3 {
+    font-size: 17px;
+    margin: 2px;
   }
-// apply styles to HTML elements
-// to make views framework-neutral
-main {
-  @extend .container;
-  background-color: #eee;
-  padding-bottom: 80px;
-  width: 100%;
-  margin-top: 51px; // accommodate the navbar
+  p {
+    font-size: 15px;
+    margin: 0px;
   }
-section {
-  @extend .row;
-  margin-top: 20px;
-  }
+}

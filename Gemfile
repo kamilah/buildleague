@@ -12,6 +12,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'simple_form'
+gem 'paperclip'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
