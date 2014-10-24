@@ -6,9 +6,10 @@
   width: 50%;
 }
   
-body {
+main {
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
+  line-spacing: 1em;
 }
 
 .navbar-default {
@@ -53,11 +54,11 @@ body { padding-bottom: 70px; }
 
 .caption {
   h3 {
-    font-size: 17px;
+    font-size: 15px;
     margin: 2px;
   }
-  p {
-    font-size: 15px;
+  strong {
+    font-size: 17px;
     margin: 0px;
   }
 }
