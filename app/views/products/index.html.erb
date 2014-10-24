@@ -2,6 +2,7 @@
 <div class="row">
       <% @products.each do |product| %>
   <div class="col-sm-6 col-md-3">
+    <div class="images-thumb">
     <div class="thumbnail">
         <%= image_tag product.image.url(:thumb) %>
         <div class="caption">
@@ -10,6 +11,7 @@
             <%= link_to 'Show', product, class: "btn btn-link" %>
             <%= link_to 'Edit', edit_product_path(product), class: "btn btn-link" %>
             <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-link" %>
+      </div>
        </div>
      </div>
     </div>

@@ -62,3 +62,8 @@ body { padding-bottom: 70px; }
   }
 }
 
+@media (min-width: $screen-sm-min) {.images-thumb img { height:100px; }}
+@media (min-width: $screen-md-min) {.images-thumb img { height:150px; }}
+@media (min-width: $screen-lg-min) {.images-thumb img { height:200px; }}
+
+

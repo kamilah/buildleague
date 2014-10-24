@@ -14,6 +14,7 @@ gem 'high_voltage'
 gem 'simple_form'
 gem 'paperclip'
 gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :development do
   gem 'better_errors'
