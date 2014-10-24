@@ -13,6 +13,8 @@ gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'paperclip'
+gem "paperclip-dropbox", ">= 1.1.7"
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
